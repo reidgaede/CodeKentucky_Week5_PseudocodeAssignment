@@ -1,0 +1,41 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+1. Via command line, prompt user to input, as an integer, first number to be summed;
+2. Assign first user-inputted value to variable named `number1`;
+3. Via command line, prompt user to input, as an integer, second number to be summed;
+4. Assign second user-inputted value to variable named `number2`;
+5. Compute sum of `number1` and `number2` and assign value to variable named `numberSum`;
+6. Print value of `numberSum` to standard output (i.e., the command line).
+
+// Exercise 2: Check if a Number is Even or Odd
+
+1. Via command line, prompt user to input, as an integer, the number to be evaluated;
+2. Assign said user-inputted integer value to variable named `userNumber`;
+3. Perform operation `userNumber % 2` and assign output to variable named `remainder`:
+	- If `remainder == 1` evaluates to `True`, print "Your number is odd." to standard output.
+	- If `remainder == 1` evaluates to `False`, print "Your number is even." to standard output.
+
+// Exercise 3: Write Pseudocode That Will Perform the Following:    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+1. Via command line, prompt user to input, as a positive integer, the first number to be summed;
+	- Assign first user-inputted value to variable named `number1`
+	- Repeat user prompt and variable assignment four more times each for each user-inputted integer value.
+2. Compute sum of `number1`, `number2`, `number3`, `number4`, and `number5`; assign value sum to variable named `numberSum`;
+3. Compute average of user-inputted numbers by dividing `numberSum` by 5; assign said average to variable named `numberAverage`;
+4. Store values for `number1`, `number2`, `number3`, `number4`, and `number5` in array named `numberArray`;
+5. Define new variable, `maxNumber`, and assign it an initial value of 0;
+6. Via for-loop, sequentially compare each value in `numberArray` to value stored in `maxNumber`;
+	- If a value in `numberArray` is greater than the value of `maxNumber`, assign said value as the new value of `maxNumber`;
+	- By conclusion of for-loop iteration, `maxNumber` should contain the largest of the user-inputted values
+7. Define new variable, `minNumber`, and assign it an initial value of `maxNumber`;
+8. Via for-loop, sequentially compare each value in `numberArray` to value stored in `minNumber`;
+	- If a value in `numberArray` is less than the value of `minNumber`, assign said value as the new value of `minNumber`;
+	- By conclusion of for-loop iteration, `minNumber` should contain the smallest of the user-inputted values
+9. To standard output (i.e., the command line), print "The maximum number is [`maxNumber`], and the minimum number is [`minNumber`]. The average of the inputted numbers is [`numberAverage`]." with the actual numeric values stored in these variables substituted for their variables names in the output string.
+
+-- END --
